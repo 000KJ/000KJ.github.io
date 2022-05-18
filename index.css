@@ -1,0 +1,130 @@
+* {
+    color: #df9a7b;
+    font-family:Arial, Helvetica, sans-serif ; 
+    text-decoration: none;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+body {
+    background-color: black;
+}
+
+main div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+blockquote {
+    background-color: gray;
+    outline: 5px solid gray;
+    border-radius: 5px;
+}
+
+div h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.menu {
+    padding: 0px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+.menu li a {
+    background-color: gray;
+    padding-top: 10px;
+    padding: 10px;
+    outline: 1px solid #000000;
+    display: block;
+    border-radius: 5px;
+}
+
+.menu li:nth-child(2n) {
+    position: relative;
+    animation: run 3s ;
+    animation-timing-function: ease-in-out;
+}
+
+.menu li:nth-child(2n+1) {
+    position: relative;
+    animation: run 3s ;
+    animation-timing-function: ease-out;
+}
+
+@keyframes run {
+    from {left: 300px;}
+    to {left: 0px;}
+}
+
+a .b1 { display: none; }
+a:hover .a1 { display: none; }
+a:hover .b1 { display: inline; }
+
+a .b2 { display: none; }
+a:hover .a2 { display: none; }
+a:hover .b2 { display: inline; }
+
+a .b3 { display: none; }
+a:hover .a3 { display: none; }
+a:hover .b3 { display: inline; }
+
+a .b4 { display: none; }
+a:hover .a4 { display: none; }
+a:hover .b4 { display: inline; }
+
+a .b5 { display: none; }
+a:hover .a5 { display: none; }
+a:hover .b5 { display: inline; }
+
+a .b6 { display: none; }
+a:hover .a6 { display: none; }
+a:hover .b6 { display: inline; }
+
+
+.menu li a:hover {
+    background-color: yellow;
+    animation-name: color;
+    animation-duration: 4s;
+}
+
+@keyframes color {
+    from {background-color: gray;}
+    to {background-color: #ffff00;}
+}
+
+.content {
+    text-indent: 15px;
+    
+}
+
+.social a {
+    background-color: gray;
+    padding-top: 10px;
+    padding: 10px;
+    outline: 1px solid #000000;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    left: 25%; 
+}
+
+
+.social a:hover {
+    background-color:#294ea0;
+    animation: color 5s ;
+}
+
+@keyframes color {
+    from {background-color: gray;}
+    to {background-color: #294ea0;}
+}
+
+.footer_pic {
+    display: inline-block;
+    position: relative;
+    left: 0%; 
+}
+
+
