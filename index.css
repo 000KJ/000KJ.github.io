@@ -113,10 +113,10 @@ a:hover .b6 { display: inline; }
 
 .social a:hover {
     background-color:#294ea0;
-    animation: color 5s ;
+    animation: color1 5s ;
 }
 
-@keyframes color {
+@keyframes color1 {
     from {background-color: gray;}
     to {background-color: #294ea0;}
 }
@@ -125,6 +125,4 @@ a:hover .b6 { display: inline; }
     display: inline-block;
     position: relative;
     left: 0%; 
-}
-
-
+} 
